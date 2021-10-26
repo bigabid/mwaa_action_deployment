@@ -21,7 +21,6 @@ RUN chown -R mwaa: ./
 
 USER mwaa
 
-ADD entrypoint.sh /entrypoint.sh
 ADD requirements.txt /requirements.txt
 
 RUN python3 -m pip install --upgrade pip
