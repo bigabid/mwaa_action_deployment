@@ -27,7 +27,7 @@ RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install --user --upgrade pip wheel
 RUN python3 -m pip install --user -r requirements.txt
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["python3","entrypoint.py"]
 
 
  
