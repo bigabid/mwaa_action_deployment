@@ -6,8 +6,8 @@ LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="green"
 
 LABEL version="0.0.1"
-LABEL repository="https://github.com/bigabid/mwaa_action_deploy.git"
-LABEL homepage="https://github.com/bigabid/mwaa_action_deploy.git"
+LABEL repository="https://github.com/bigabid/mwaa_action_deployment.git"
+LABEL homepage="https://github.com/bigabid/mwaa_action_deployment.git"
 LABEL maintainer="Rotem Levi <rotem.l@bigabid.com>"
   
 WORKDIR /app
